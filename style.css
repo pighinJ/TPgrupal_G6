@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: auto;
+    
 }
 
 
@@ -53,18 +53,15 @@ header {
 /* Estilo Seccion 1 */
 
 .seccion1 {
-    margin-top: 100px;
+    margin: 50px;
     width: 100%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    text-align: center;
-    align-items: center;
 }
 
 .textosec1 {
-    
     align-items: center;
     justify-items: flex-end;
     padding: 15px;
@@ -74,7 +71,6 @@ header {
 
 
 .sec1a {
-    margin-left: 80px;
     flex-basis: 40%;
     font-size: 55px;
 
@@ -84,7 +80,7 @@ header {
     font-family: Arial;
     flex-basis: 60%;
     border-left: 2px solid #515050;
-    padding: 50px;
+    padding: 20px;
 }
 
 .psec1b {
@@ -95,21 +91,22 @@ header {
 }
 
 .imagensec1 {
-    margin-left: 0;
     width: 900px;
-    height: 450px;
-    
     justify-content: flex-end;
 }
 
 .iconseccion1 {
-
     display: flex;
+    align-content: center;
     justify-content: flex-start;
+    
     padding: 10px;
     position: relative;
     bottom: 70px;
-
+}
+.iconseccion2 {
+    display: inline-block;
+    transform: scaleY(-1);
 }
 
 .textosec1 {
@@ -157,8 +154,8 @@ header {
 }
 
 .vertical1 {
-    margin-left: -40px;
-    width: 345px;
+    margin-left: -20px;
+    width: 400px;
     height: auto;
 }
 
@@ -167,24 +164,22 @@ header {
 .seccion3 {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
     padding: 10px;
-    
 }
 
 /* IMAGENES SECCION 3 */
 .vertical2 {
-    width: 170px;
-    height: auto;
+    overflow: hidden;
+    width: 280px;
     margin-bottom: -30px;
-    margin-left: -45px;
+    margin-left: -250px;
 }
 
 .horizontal1 {
-    width: 300px;
-    height: auto;
-    
+    width: 400px;
+    margin-top: -80px;
+    margin-right: -195px;
 }
 
 /* TEXTOS SECCION 3 */
@@ -203,6 +198,8 @@ header {
 
 .textocaja1sec3 {
     width: 40%;
+    margin-right: 80px;
+    margin-left: -99px;
 }
 
 .h2sec3 {
@@ -233,26 +230,40 @@ header {
     margin: 30px;
     display: flex;
     flex-direction: column;
+    margin-right: -99px;
 }
 
 .h3sec3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    padding: 0;
     color: rgb(37, 37, 37);
 }
 
 .p2asec3 {
-
+    text-align: left;
+    padding: 0;
     color: grey;
+}
+.see-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .p2bsec3 {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
     color: rgb(37, 37, 37);
-    padding: 20px;
+    padding: 0px;
 }
 
 .hr2 {
+    margin-top: 50px;
     width: 50%;
     height: 2px;
     background-color: gray;
@@ -373,16 +384,18 @@ header {
 .izquierda {
     background-color: #d3d3d3;
     color: #939292;
-    width: 80px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
 }
 
 .derecha {
+    display: inline-block;
+    transform: scaleY(-1);
     align-content: center;
     background-color: black;
     color: white;
-    width: 80px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
 
 }
 
@@ -439,29 +452,24 @@ header {
 }
 
 .vertical3 {
-    width: 100%;
-    height: 200px;
+    width: 90px;
+    height: auto;
     
 }
 
 .vertical4 {
-    width: 100%;
-    height: 200px;
+    width: 90px;
+    height: auto;
 }
 
 /* ESTILO FOOTER */
 
 footer {
-    margin: auto;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 60px;
-    background-color: #272727;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: monospace;
-    
+    padding: 20px;
+    background-color: #272727;
 }
 
 footer img {
@@ -502,8 +510,12 @@ footer .sub-mail h2{
     background-color: #272727;
     
 }
+.iconosfooter h2 {
+    margin-bottom: 20px;
+}
 .icon-red {
-    margin-right: 5px;
-    margin: 10px;
+    margin-left: -40px;
+    margin-right: 20px;
+    margin: 20px;
 
 }
